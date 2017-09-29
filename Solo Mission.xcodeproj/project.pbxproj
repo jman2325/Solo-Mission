@@ -17,6 +17,12 @@
 		16ED8F861E0798D1000B82AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16ED8F841E0798D1000B82AC /* LaunchScreen.storyboard */; };
 		16ED8F911E0798D1000B82AC /* Solo_MissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ED8F901E0798D1000B82AC /* Solo_MissionTests.swift */; };
 		16ED8F9C1E0798D1000B82AC /* Solo_MissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ED8F9B1E0798D1000B82AC /* Solo_MissionUITests.swift */; };
+		16ED8FAA1E07A04F000B82AC /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 16ED8FA91E07A04F000B82AC /* 4.wav */; };
+		16ED8FAC1E087DF0000B82AC /* Explosion+1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16ED8FAB1E087DF0000B82AC /* Explosion+1.mp3 */; };
+		16ED8FAE1E087F05000B82AC /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16ED8FAD1E087F05000B82AC /* theBoldFont.ttf */; };
+		16ED8FB01E088CC3000B82AC /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ED8FAF1E088CC3000B82AC /* GameOverScene.swift */; };
+		16ED8FB21E08A170000B82AC /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ED8FB11E08A170000B82AC /* MainMenuScene.swift */; };
+		16ED8FB41E08B63C000B82AC /* Tripcore - Outer Space [Royalty Free].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16ED8FB31E08B63C000B82AC /* Tripcore - Outer Space [Royalty Free].mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		16ED8F971E0798D1000B82AC /* Solo MissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solo MissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16ED8F9B1E0798D1000B82AC /* Solo_MissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solo_MissionUITests.swift; sourceTree = "<group>"; };
 		16ED8F9D1E0798D1000B82AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16ED8FA91E07A04F000B82AC /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		16ED8FAB1E087DF0000B82AC /* Explosion+1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Explosion+1.mp3"; sourceTree = "<group>"; };
+		16ED8FAD1E087F05000B82AC /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		16ED8FAF1E088CC3000B82AC /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		16ED8FB11E08A170000B82AC /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		16ED8FB31E08B63C000B82AC /* Tripcore - Outer Space [Royalty Free].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tripcore - Outer Space [Royalty Free].mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +119,14 @@
 				16ED8F771E0798D1000B82AC /* GameScene.sks */,
 				16ED8F791E0798D1000B82AC /* Actions.sks */,
 				16ED8F7B1E0798D1000B82AC /* GameScene.swift */,
+				16ED8FB11E08A170000B82AC /* MainMenuScene.swift */,
+				16ED8FAF1E088CC3000B82AC /* GameOverScene.swift */,
 				16ED8F7D1E0798D1000B82AC /* GameViewController.swift */,
+				16ED8FAD1E087F05000B82AC /* theBoldFont.ttf */,
+				16ED8FB31E08B63C000B82AC /* Tripcore - Outer Space [Royalty Free].mp3 */,
+				16ED8FA91E07A04F000B82AC /* 4.wav */,
 				16ED8F7F1E0798D1000B82AC /* Main.storyboard */,
+				16ED8FAB1E087DF0000B82AC /* Explosion+1.mp3 */,
 				16ED8F821E0798D1000B82AC /* Assets.xcassets */,
 				16ED8F841E0798D1000B82AC /* LaunchScreen.storyboard */,
 				16ED8F871E0798D1000B82AC /* Info.plist */,
@@ -202,6 +220,7 @@
 				TargetAttributes = {
 					16ED8F711E0798D1000B82AC = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 37U5S5HCGL;
 						ProvisioningStyle = Automatic;
 					};
 					16ED8F8B1E0798D1000B82AC = {
@@ -241,11 +260,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16ED8FAC1E087DF0000B82AC /* Explosion+1.mp3 in Resources */,
 				16ED8F811E0798D1000B82AC /* Main.storyboard in Resources */,
 				16ED8F781E0798D1000B82AC /* GameScene.sks in Resources */,
 				16ED8F831E0798D1000B82AC /* Assets.xcassets in Resources */,
+				16ED8FAE1E087F05000B82AC /* theBoldFont.ttf in Resources */,
+				16ED8FAA1E07A04F000B82AC /* 4.wav in Resources */,
 				16ED8F861E0798D1000B82AC /* LaunchScreen.storyboard in Resources */,
 				16ED8F7A1E0798D1000B82AC /* Actions.sks in Resources */,
+				16ED8FB41E08B63C000B82AC /* Tripcore - Outer Space [Royalty Free].mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16ED8FB21E08A170000B82AC /* MainMenuScene.swift in Sources */,
 				16ED8F7C1E0798D1000B82AC /* GameScene.swift in Sources */,
 				16ED8F7E1E0798D1000B82AC /* GameViewController.swift in Sources */,
+				16ED8FB01E088CC3000B82AC /* GameOverScene.swift in Sources */,
 				16ED8F761E0798D1000B82AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,11 +449,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37U5S5HCGL;
 				INFOPLIST_FILE = "Solo Mission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Bailey.Solo-Mission";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -436,11 +464,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37U5S5HCGL;
 				INFOPLIST_FILE = "Solo Mission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Bailey.Solo-Mission";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
